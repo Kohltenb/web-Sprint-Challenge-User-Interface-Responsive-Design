@@ -4,50 +4,60 @@
 
 <head>
 	<meta charset="utf-8">
-
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Sprint Challenge - Home</title>
-
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/index.css" />
 </head>
 
 <body>
 	<div>
 		<!-- header -->
 		<header>
-			<div>
-				BLOOMTECH BAR AND GRILL
-
+			<div class="topheader">
+				<a href="index.html">
+					<h1>BLOOMTECH BAR AND GRILL</h1>
+				</a>
 				<!-- nav -->
-				Menu
-				Reservations
-				Special Offers
-				Contact
+				<nav class="mainnav">
+					<div class="firstnav">
+						<a href="menu.html">Menu</a>
+						<a href="">Reservations</a>
+						<a href="">Special Offers</a>
+						<a href="">Contact</a>
+					</div>
+					<div class="socialmedia">
+						<i class="fa-brands fa-facebook-square"></i>
+						<i class="fa-brands fa-twitter-square"></i>
+						<i class="fa-brands fa-instagram-square"></i>
+
+					</div>
+				</nav>
 			</div>
 		</header>
 
 		<!-- gallery section -->
-		<section class="gallery">
-			<div>
-				<h2>OUR FOOD</h2>
+		<section class="gallery-container">
+			<h2>OUR FOOD</h2>
+			<div class="pictures">
+				<img src="img/food-avocadotoast.jpg" alt="avocadotoast">
 
-				img/food-avocadotoast.jpg
+				<img src="img/food-burger.jpg" alt="burger">
 
-				img/food-burger.jpg
+				<img src="img/food-poutine.jpg" alt="poutine">
 
-				img/food-poutine.jpg
+				<img src="img/food-ribs.jpg" alt="ribs">
 
-				img/food-ribs.jpg
+				<img src="img/food-sandwich.jpg" alt="sandwich">
 
-				img/food-sandwich.jpg
+				<img src="img/food-sausage.jpg" alt="Sausage">
 
-				img/food-sausage.jpg
+				<img src="img/food-steak.jpg" alt="steak">
 
-				img/food-steak.jpg
+				<img src="img/food-tacos.jpg" alt="tacos">
 
-				img/food-tacos.jpg
-
-				img/food-wings.jpg
+				<img src="img/food-wings.jpg" alt="wings">
 			</div>
 		</section>
 
@@ -124,16 +134,24 @@
 
 		<!-- footer -->
 		<footer>
-			<!-- email signup -->
-			Join our mailing list!
-			Sign Up
-			<!-- nav -->
-			Menu
-			Reservations
-			Special Offers
-			Contact
-			<!-- copyright -->
-			©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.
+			<section class="wholefooter">
+				<!-- email signup -->
+				<nav>
+					<div class="email">
+						<h3>Join our mailing list!</h3>
+						<input type="email" placeholder="Email Address">
+						<button>Sign Up</button>
+					</div>
+					<!-- nav -->
+					<a href="menu.html">Menu</a>
+					<a href="#reservations">Reservations</a>
+					<a href="#special-offers">Special Offers</a>
+					<a href="#contact">Contact</a>
+				
+			</nav>
+				<!-- copyright -->
+				<p>©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.</p>
+			</section>
 		</footer>
 	</div>
 </body>
