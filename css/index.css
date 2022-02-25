@@ -144,7 +144,7 @@ header {
 }
 
 /* gallery section */
-.gallery-container {
+.gallery {
     width: 100%;
     height: 100vh;
     text-align: center;
@@ -313,7 +313,7 @@ footer p {
     
 
     /* gallery section */
-    .gallery-container {
+    .gallery {
         height: auto;
         padding: 0;
         flex-direction: column;  
